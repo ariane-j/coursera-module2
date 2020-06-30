@@ -1,0 +1,37 @@
+body {color: black}
+
+h1 {margin-bottom: 50px; 
+	text-align: center;}
+
+h2 {border-left: 1px solid black; 
+	border-bottom: 1px solid black;
+text-align: center;
+width: 150px;
+margin: 0px 0px 10px 10px;
+float: right;}
+
+p {font-size: 18px;  
+	text-align: left;
+margin: 50px 10px 10px 10px}
+
+#first {background-color: #FFB6C1}
+#second {background-color: #8B0000; color: white}
+#third {background-color: #FFFF99}
+
+div {border: 1px solid black; 
+	padding: 0px 0px 10px 10px; 
+	margin: 0px 0px 10px 10px;  
+	background-color: #d3d3d3;
+	width: 400px;
+    float: left}
+
+	* {box-sizing: border-box;
+		margin: 0
+		padding: 0}
+
+/*****medium devices only*****/
+
+@media (min-width: 768px) and (max-width: 991px) {.col-md-6, 
+	.col-md-12
+.col-md-6 {width: 300px}
+.col-md-12 {width: 610px}
